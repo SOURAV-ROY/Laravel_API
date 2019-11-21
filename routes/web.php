@@ -20,5 +20,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('test', function(){
-	return 'success DONE';
+	return 'success DONE OK';
 });
